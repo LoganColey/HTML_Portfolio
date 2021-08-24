@@ -9,6 +9,8 @@ body{
     margin-left: 500px;
     margin-right: 250px;
     margin-top: 0em;
+    margin-bottom: 0em;
+    
 }
 .boxed {
     border: 1px solid black ;
@@ -17,4 +19,5 @@ body{
     font-family: cursive;
     text-align: center;
     margin-top: 0em;
+    margin-bottom: 0em;
   }
