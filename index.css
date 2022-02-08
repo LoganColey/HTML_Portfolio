@@ -1,4 +1,4 @@
-body{background: url(images/background1.png);
+body{background: linear-gradient(to bottom right, white, teal);;
     background-size: cover;
     background-repeat: no-repeat;}
 
