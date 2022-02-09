@@ -1,8 +1,10 @@
-body{background: linear-gradient(to bottom right, white, teal);;
+body{background: linear-gradient(to bottom right, white, rgb(131, 202, 202));;
     background-size: cover;
     background-repeat: no-repeat;}
 
-
+.profilepic {
+  border-radius: 50%; 
+}
 
 .boxed {
     border: 1px solid black ;
@@ -65,7 +67,6 @@ body{background: linear-gradient(to bottom right, white, teal);;
     flex-flow: column;
     width: 30vw;
     justify-content: center;
-    width: 
 
 
   }
