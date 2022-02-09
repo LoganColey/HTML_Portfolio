@@ -7,21 +7,35 @@
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <ul class="boxed" >
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <h1 class="boxed" style="text-align: right;">Contacts</h1>
-        </ul>
-          <h1 style="text-align: center; margin-top: 5em;"  class="pro_title">Contact me here!</h1>
-          <div class="flex-container">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">About Me</a>
+            <a href="skills.html">Skills</a>
+            <a href="work.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+          
+        <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+        <h2 style="float: right">Contact</h2>
+          
+        <script>
+          function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+          }
+        </script>
+        <h1 style="text-align: center; margin-top: 5em;"  class="pro_title">Contact me here!</h1>
+        <div class="flex-container">
             <div><a href="mailto:logancoley3530@gmail.com" target="_blank"><img alt="Gmail" src="images/gmail.png"width="150" height="100"></a></div>
             <div><a href="https://github.com/LoganColey" target="_blank"><img alt="Github" src="images/git.png"width="150" height="100"></a></div>
             <div><a href="https://www.linkedin.com/in/logan-coley-638954216/" target="_blank"><img alt="Linkedin"src="images/linkedin.png"width="150" height="100"></a></div>
             <div><a href="https://www.instagram.com/tolan_gamedev/" target="_blank"><img alt="Instagram" src="images/Instagram.png"width="150" height="100"></a></div>
-            </div>
-          </div>
+        </div>
+
     </body>
 
 </html>
