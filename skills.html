@@ -7,13 +7,27 @@
         <link href="index.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <ul class="boxed">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <h1 class="boxed" style="text-align: right;">Skills</h1>
-          </ul>
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">About Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="work.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      
+    <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+    <h2 style="float: right">Skills</h2>
+      
+    <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+    </script>
           <h2 style="text-align: center; margin-top: 5em;" class="pro_title">Languages:</h2>
           <div class="flex-container">
             <div><img src="images/html.png" width="150" height="100"></div>
